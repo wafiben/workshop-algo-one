@@ -1,0 +1,24 @@
+ALGORITHM  Iterative
+VAR
+    i:INTEGER
+BEGIN
+  /*    i:=0;
+    WHILE (i<10) DO
+        i:=i+1;//1//2//3//4//5//5//...9//10
+    END_WHILE
+  Write(i);  */
+  /* i:=0;
+  REPEAT
+     i:=i+1;  //1//2//3//4// 5
+  UNTIL (i<5) */
+  /* i:=0;
+  REPEAT
+      i:=i+1;//1
+  UNTIL (i<0) */
+
+/* WHILE (i<0) DO
+i:=i+1;
+END_WHILE */
+
+
+END

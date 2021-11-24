@@ -1,0 +1,17 @@
+ALGORITHM ITERATIVE
+VAR
+   i:INTEGER
+BEGIN
+  /*  i:=0;
+   WHILE (i<3) DO
+       i:=i+1;//1//2//3
+   END_WHILE
+   Write(i); */
+   i:=0;
+  WHILE (i<0) DO
+      i:=i+1
+  END_WHILE
+  
+  Write(i)
+   
+END

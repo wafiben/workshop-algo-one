@@ -1,0 +1,20 @@
+ALGORITHM algorithm_name
+VAR
+    str:STRING
+    nbWorld:INTEGER;
+    nbSpace:INTEGER
+    c:CHAR
+BEGIN
+ nbSpace:=0;
+ //i am a.
+    REPEAT
+        Write('give caracter');
+        Read(c);
+        IF (c:=" ") THEN
+            nbSpace:=nbSpace+1;//1//2
+        END_IF
+
+    UNTIL (c=".") 
+    nbWorld:=nbSpace+1;//3
+END
+//

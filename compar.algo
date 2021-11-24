@@ -1,0 +1,18 @@
+ALGORITHM COMPARE
+VAR
+    A,B:INTEGER
+
+BEGIN
+  Write("give the first elment")
+  Read(A)
+  Write("Give an another element")
+  Read(B)
+  IF (A>B) THEN
+      Write("the first element is superior ")
+  ELSE_IF (A<B) THEN
+      Write("the second elemnt superior")
+  ELSE
+      Write("they are equals ")
+  END_IF
+    
+END

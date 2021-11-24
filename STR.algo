@@ -1,0 +1,12 @@
+ALGORITHM Calculate
+VAR
+   B, A:FLOAT;
+BEGIN
+    Write('enter the first number');
+    Read(A)
+     Write('enter the first number');
+    Read(B);
+    Write("the sum is" +  (A+B))
+    Write("the minus is " +(A-B))
+    Write("multiple is" +( A*B))
+END

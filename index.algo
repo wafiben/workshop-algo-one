@@ -1,0 +1,18 @@
+ALGORITHM SELLING
+VAR
+    PRICE:FLOAT
+    MONEY:INTEGER
+    MSG:STRING
+BEGIN
+      Write("give the Price of the car");
+      Read(PRICE);
+      Write('give the sum you have');
+      Read(MONEY);
+      IF (MONEY>PRICE OR MONEY==PRICE) THEN
+          MSG:="you can by the car ";
+      
+      ELSE
+          MSG:="you can not by the car"
+      END_IF
+  Write(MSG)
+END

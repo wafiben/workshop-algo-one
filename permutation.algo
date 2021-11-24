@@ -1,0 +1,14 @@
+ALGORITHM  PERMUTATION
+VAR
+   B,A:INTEGER;
+   AUX:INTEGER;
+BEGIN
+    Write('give the first element');
+    Read(A);
+    Write('give the second element');
+    Read(B);
+    AUX:=A;
+    A:=B
+    B:=Aux;
+   Write(A,B)
+END
